@@ -9,7 +9,7 @@ if array.length == 3
 end
 
 if array.length>3
-  return array[-1].insert(0, "and ")
+  return array.join(", ")
 end
 
 array.join
